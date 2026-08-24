@@ -1,0 +1,5 @@
+import { ArrowDownRight, Sparkles } from 'lucide-react'
+
+export default function Hero() {
+  return <section className="hero section" id="home"><div className="hero-copy"><p className="eyebrow"><Sparkles size={15} /> AI & Data Science student</p><h1>Hi, I'm <em>Nandini BM</em><br />I turn curiosity<br />into <span>possibility.</span></h1><p className="hero-lede">Passionate about programming, Data Science, Artificial Intelligence and entrepreneurship.</p><div className="hero-actions"><a className="button button-primary" href="#about">Explore my portfolio <ArrowDownRight size={18} /></a><a className="button button-quiet" href="#contact">Contact me <span>↗</span></a></div></div><div className="hero-visual"><div className="portrait-frame"><div className="portrait-placeholder"><span>NB</span><small>Profile photo<br />coming soon</small></div><div className="portrait-label">Nandini BM <b>01</b></div></div><div className="orbit orbit-one"></div><div className="orbit orbit-two"></div><div className="data-chip chip-one">PY</div><div className="data-chip chip-two">AI</div></div><div className="scroll-note">Scroll to explore <ArrowDownRight size={16} /></div></section>
+}
